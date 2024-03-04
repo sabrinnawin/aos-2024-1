@@ -4,7 +4,7 @@
   "description": "Exemplo de projeto Express mínimo",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +13,8 @@
     "nodejs"
   ],
   "author": "Márcio Bueno <marcio.bueno@unicap.br> (https://marciobueno.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
