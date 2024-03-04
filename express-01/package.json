@@ -1,0 +1,17 @@
+{
+  "name": "express-01",
+  "version": "0.0.1",
+  "description": "Exemplo de projeto Express mínimo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expressjs",
+    "babel",
+    "nodejs"
+  ],
+  "author": "Márcio Bueno <marcio.bueno@unicap.br> (https://marciobueno.com/)",
+  "license": "MIT"
+}
