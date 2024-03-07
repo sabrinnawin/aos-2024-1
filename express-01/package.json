@@ -4,7 +4,7 @@
   "description": "Exemplo de projeto Express mínimo",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +15,12 @@
   "author": "Márcio Bueno <marcio.bueno@unicap.br> (https://marciobueno.com/)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.0",
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
