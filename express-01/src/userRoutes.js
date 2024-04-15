@@ -12,7 +12,6 @@ router.get("/", (req, res) => {
 
 router.get("/:userId", (req, res) => {
   const userId = req.params.userId;
-
   return res.send(req.context.models.users[userId]);
 });
 
